@@ -2563,11 +2563,6 @@
   resolved "https://registry.npmjs.org/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
   integrity sha512-/+CRPXpBDpo2RK9C68N3b2cOvO0Cf5B9aPijHsoDQTHivnGSObdOF2BRQOYjojWTDy6nQvMjmqRXIxH55VjxxA==
 
-"@types/bluebird@*":
-  version "3.5.29"
-  resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.29.tgz#7cd933c902c4fc83046517a1bef973886d00bdb6"
-  integrity sha512-kmVtnxTuUuhCET669irqQmPAez4KFnFVKvpleVRyfC3g+SHD1hIkFZcWLim9BVcwUBLO59o8VZE4yGCmTif8Yw==
-
 "@types/body-parser@*":
   version "1.17.1"
   resolved "https://registry.npmjs.org/@types/body-parser/-/body-parser-1.17.1.tgz#18fcf61768fb5c30ccc508c21d6fd2e8b3bf7897"
@@ -2758,12 +2753,11 @@
     "@types/parse5" "*"
     "@types/tough-cookie" "*"
 
-"@types/karma@^3.0.2":
-  version "3.0.6"
-  resolved "https://registry.npmjs.org/@types/karma/-/karma-3.0.6.tgz#6aa64400d92dd0af2b5ad6eb2ae875cee061b8ca"
-  integrity sha512-2HanAMFucp8UU9yxQpFFSjnvqSxT0WhyC4ATlYZnbEjGaIp/4pCIV3nf0zefUbUseCalzZ1y3blbWjMLJ9/feg==
+"@types/karma@^5.0.0":
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/@types/karma/-/karma-5.0.1.tgz#daed1314723c4fa5eeef5275568d78f161733d0a"
+  integrity sha512-zSaPZ+ABVx/DQ5imAQZUITgLy19H0aAogknHU67JuDi2PvaXGjYBevFakkDtooBvr7dMsq/YD9vtOxMcSHWnxw==
   dependencies:
-    "@types/bluebird" "*"
     "@types/node" "*"
     log4js "^4.0.0"
 
@@ -10357,10 +10351,10 @@ jsonparse@^1.2.0, jsonparse@^1.3.1:
   resolved "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
   integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
 
-jsonschema@^1.2.4:
-  version "1.2.5"
-  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.2.5.tgz#bab69d97fa28946aec0a56a9cc266d23fe80ae61"
-  integrity sha512-kVTF+08x25PQ0CjuVc0gRM9EUPb0Fe9Ln/utFOgcdxEIOHuU7ooBk/UPTd7t1M91pP35m0MU1T8M5P7vP1bRRw==
+jsonschema@^1.2.6:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.0.tgz#1afa34c4bc22190d8e42271ec17ac8b3404f87b2"
+  integrity sha512-/YgW6pRMr6M7C+4o8kS+B/2myEpHCrxO4PEWnqJNBFMjn7EWXqlQ4tGwL6xTHeRplwuZmcAncdvfOad1nT2yMw==
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -10405,13 +10399,13 @@ karma-safari-launcher@1.0.0:
   resolved "https://registry.npmjs.org/karma-safari-launcher/-/karma-safari-launcher-1.0.0.tgz#96982a2cc47d066aae71c553babb28319115a2ce"
   integrity sha1-lpgqLMR9BmquccVTursoMZEVos4=
 
-karma-viewport@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/karma-viewport/-/karma-viewport-1.0.5.tgz#2a530eefbaecfaeb98615c3f8934e100234647d5"
-  integrity sha512-XQvyCDNLrlnUQGQyh9kmINIlSUbQR0YzvkgtYoDW39xP4SX5dJmEwTuRtvgSgOVVtWdnGl94qzXIilRtf5x8Mg==
+karma-viewport@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npmjs.org/karma-viewport/-/karma-viewport-1.0.8.tgz#528ffa729bad371c303b0c60d148896dba187715"
+  integrity sha512-KIN8zteDBmvh5Fvac/jet05cEtT+dag583DlSTMGKNvdib9NM2dMWWA/u1zfnkHxSQEQVE/zyxlqBgmOTqdqQg==
   dependencies:
-    "@types/karma" "^3.0.2"
-    jsonschema "^1.2.4"
+    "@types/karma" "^5.0.0"
+    jsonschema "^1.2.6"
 
 karma-webpack@4.0.2:
   version "4.0.2"
@@ -13953,15 +13947,6 @@ react-test-renderer@^16.0.0-0:
     react-is "^16.8.6"
     scheduler "^0.18.0"
 
-react@16.12.0:
-  version "16.12.0"
-  resolved "https://registry.npmjs.org/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
-  integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-
 react@16.13.0, react@^16.13.0:
   version "16.13.0"
   resolved "https://registry.npmjs.org/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
@@ -14886,10 +14871,10 @@ rollup-pluginutils@2.8.2, rollup-pluginutils@^2.5.0, rollup-pluginutils@^2.8.1:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/rollup/-/rollup-2.0.3.tgz#b28fd528b3b15a8caf01fa7446c83bd66142b0ab"
-  integrity sha512-OjTD1pmtqCFaaoTl+zf3dXlG0FR1PudauQzAYmP5hDLLrrisXP6EuzAx9MY6En5bv61e8F6JGcVQxsVOcqFTUA==
+rollup@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-2.0.5.tgz#55b8c0d62360a095e322ac7425b13ac5a97edcb4"
+  integrity sha512-bECGz+RYpw3NYCvLnABu3REUROYbnZsfQZA37ekm/KlgKt/fyxBNN4waBnlLwzx4r6jNBs56SbTn7PEgJjw3fQ==
   optionalDependencies:
     fsevents "~2.1.2"
 
